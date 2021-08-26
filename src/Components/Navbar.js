@@ -3,6 +3,8 @@ import { FiSun } from "react-icons/fi";
 import { RiMoonClearLine } from "react-icons/ri";
 
 const Navbar = ({ theme, setTheme }) => {
+	localStorage.setItem("mode", theme);
+
 	const toggleTheme = () => {
 		theme === "light" ? setTheme("dark") : setTheme("light");
 	};

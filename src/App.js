@@ -8,16 +8,16 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 
-const lightTheme = {
+const lightMode = {
 	bg: "#fff",
 	fontColor: "#000",
-	transition: "0.8s",
+	transition: "0.5s",
 };
 
-const darkTheme = {
+const darkMode = {
 	bg: "#000",
 	fontColor: "#fff",
-	transition: "0.8s",
+	transition: "0.5s",
 };
 
 const Style = createGlobalStyle`
@@ -29,10 +29,15 @@ const Style = createGlobalStyle`
 `;
 
 const App = () => {
-	const [theme, setTheme] = useState("dark");
+	var themeState =
+		localStorage.getItem("mode") === null
+			? "light"
+			: localStorage.getItem("mode");
+
+	const [theme, setTheme] = useState(themeState);
 
 	return (
-		<ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+		<ThemeProvider theme={theme === "light" ? lightMode : darkMode}>
 			<Style />
 			<Router>
 				<div className="pt-12 mx-72">
