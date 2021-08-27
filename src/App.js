@@ -15,7 +15,7 @@ const lightMode = {
 };
 
 const darkMode = {
-	bg: "#000",
+	bg: "#181818",
 	fontColor: "#fff",
 	transition: "0.5s",
 };

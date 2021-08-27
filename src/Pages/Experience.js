@@ -1,9 +1,7 @@
 const Experience = () => {
 	return (
 		<div>
-			<h1 className="border-b-2 border-black font-mono text-3xl pb-2">
-				Experience
-			</h1>
+			<h1 className="font-mono text-3xl mt-8">Experience</h1>
 		</div>
 	);
 };

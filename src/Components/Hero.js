@@ -13,12 +13,34 @@ const Hero = () => {
 				a computer science student at the University of Waterloo
 			</h2>
 			<div className="mt-6 flex">
-				<div className="hover:text-blue-800">
-					<AiFillGithub className="mr-8" size={40} />
-				</div>
-				<AiFillLinkedin className="mr-8" size={40} />
-				<FiMail className="mr-8" size={40} />
-				<AiOutlineFileText size={38} />
+				<AiFillGithub
+					className="mr-8"
+					size={40}
+					onClick={() =>
+						window.open("https://github.com/shaikhareeb", "_blank")
+					}
+				/>
+				<AiFillLinkedin
+					className="mr-8"
+					size={40}
+					onClick={() =>
+						window.open("https://www.linkedin.com/in/areeb-shaikh/", "_blank")
+					}
+				/>
+				<FiMail
+					className="mr-8"
+					size={40}
+					onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
+				/>
+				<AiOutlineFileText
+					size={38}
+					onClick={() =>
+						window.open(
+							"https://drive.google.com/file/d/1HmPZG05QYC5_xidBcEPtwtbzUFdggoU7/view?usp=sharing",
+							"_blank"
+						)
+					}
+				/>
 			</div>
 		</div>
 	);
