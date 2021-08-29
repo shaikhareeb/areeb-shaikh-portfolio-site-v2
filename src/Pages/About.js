@@ -24,14 +24,14 @@ const About = () => {
 					</p>
 					<div className="mt-6 flex">
 						<AiFillGithub
-							className="mr-8"
+							className="mr-8 cursor-pointer"
 							size={40}
 							onClick={() =>
 								window.open("https://github.com/shaikhareeb", "_blank")
 							}
 						/>
 						<AiFillLinkedin
-							className="mr-8"
+							className="mr-8 cursor-pointer"
 							size={40}
 							onClick={() =>
 								window.open(
@@ -41,11 +41,12 @@ const About = () => {
 							}
 						/>
 						<FiMail
-							className="mr-8"
+							className="mr-8 cursor-pointer"
 							size={40}
 							onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
 						/>
 						<AiOutlineFileText
+							className="cursor-pointer"
 							size={38}
 							onClick={() =>
 								window.open(

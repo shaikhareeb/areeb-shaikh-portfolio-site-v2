@@ -30,7 +30,9 @@ const Navbar = ({ theme, setTheme }) => {
 				<Link to="/photography" className="mr-30px">
 					Photography
 				</Link>
-				<div onClick={toggleTheme}>{icon}</div>
+				<div className="cursor-pointer" onClick={toggleTheme}>
+					{icon}
+				</div>
 			</div>
 		</nav>
 	);

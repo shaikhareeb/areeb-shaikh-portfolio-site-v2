@@ -14,25 +14,26 @@ const Hero = () => {
 			</h2>
 			<div className="mt-6 flex">
 				<AiFillGithub
-					className="mr-8"
+					className="mr-8 cursor-pointer"
 					size={40}
 					onClick={() =>
 						window.open("https://github.com/shaikhareeb", "_blank")
 					}
 				/>
 				<AiFillLinkedin
-					className="mr-8"
+					className="mr-8 cursor-pointer"
 					size={40}
 					onClick={() =>
 						window.open("https://www.linkedin.com/in/areeb-shaikh/", "_blank")
 					}
 				/>
 				<FiMail
-					className="mr-8"
+					className="mr-8 cursor-pointer"
 					size={40}
 					onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
 				/>
 				<AiOutlineFileText
+					className="cursor-pointer"
 					size={38}
 					onClick={() =>
 						window.open(
