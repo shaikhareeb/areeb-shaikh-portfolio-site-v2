@@ -7,6 +7,7 @@ import Photography from "./Pages/Photography";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
+import ScrollToTop from "./ScrollToTop";
 
 const lightMode = {
 	bg: "#fff",
@@ -40,20 +41,21 @@ const App = () => {
 		<ThemeProvider theme={theme === "light" ? lightMode : darkMode}>
 			<Style />
 			<Router>
+				<ScrollToTop />
 				<div className="pt-12 mx-72">
 					<Navbar theme={theme} setTheme={setTheme} />
 					<Switch>
 						<Route exact path="/">
-							<Home />
+							<Home theme={theme} />
 						</Route>
 						<Route exact path="/about">
 							<About />
 						</Route>
 						<Route exact path="/experience">
-							<Experience />
+							<Experience theme={theme} />
 						</Route>
 						<Route exact path="/projects">
-							<Projects />
+							<Projects theme={theme} />
 						</Route>
 						<Route exact path="/photography">
 							<Photography />

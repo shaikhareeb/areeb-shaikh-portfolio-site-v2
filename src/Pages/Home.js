@@ -1,12 +1,12 @@
 import React from "react";
 import Hero from "../Components/Hero";
-import Featured from "../Components/Featured";
+import Content from "../Components/Content";
 
-const Home = () => {
+const Home = ({ theme }) => {
 	return (
 		<div>
 			<Hero />
-			<Featured />
+			<Content theme={theme} />
 		</div>
 	);
 };

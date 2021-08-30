@@ -13,10 +13,15 @@ module.exports = {
 			padding: {
 				"30px": "30px",
 			},
+			fontSize: {
+				zero: 0,
+			},
 		},
 	},
 	variants: {
-		extend: {},
+		extend: {
+			fontSize: ["hover"],
+		},
 	},
 	plugins: [],
 };
