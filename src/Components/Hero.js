@@ -4,13 +4,24 @@ import {
 	AiOutlineFileText,
 } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
 	return (
 		<div className="font-mono">
-			<h1 className="text-6xl mt-48">Hey there, I'm Areeb</h1>
-			<h2 className="font-inconsolata text-4xl mt-6">
-				a computer science student at the University of Waterloo
+			<h1 className="text-6xl mt-48">
+				<Typewriter
+					onInit={(typewriter) => {
+						typewriter.typeString("Hey there, I'm Areeb").start();
+					}}
+					options={{
+						delay: 100,
+					}}
+				/>
+			</h1>
+			<h2 className="font-inconsolata text-4xl mt-4">
+				a computer science student at the University of Waterloo and former
+				full-stack developer intern at Compass
 			</h2>
 			<div className="mt-6 flex">
 				<AiFillGithub
