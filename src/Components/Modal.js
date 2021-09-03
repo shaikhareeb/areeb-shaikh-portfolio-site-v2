@@ -1,18 +1,22 @@
 import test from "../Images/test.jpg";
 import { MdClose } from "react-icons/md";
+import { motion } from "framer-motion";
 
 const Modal = ({ toggle, setToggle, theme }) => {
 	return (
 		<>
 			{toggle ? (
 				<div className="top-0 left-0 right-0 bottom-0 z-20 w-full h-full fixed bg-black bg-opacity-50 flex justify-center items-center">
-					<div
+					<motion.div
 						style={
 							theme === "light"
 								? { backgroundColor: "white" }
 								: { backgroundColor: "#181818" }
 						}
 						className="fixed w-3/4 h-5/6 shadow-md relative z-10 overflow-auto"
+						initial={{ y: "10vh" }}
+						animate={{ y: 0 }}
+						transition={{ type: "tween", duration: 0.7 }}
 						onClick={() => setToggle((prev) => !prev)}
 					>
 						<img className="w-full h-4/6" src={test} alt="" />
@@ -28,7 +32,7 @@ const Modal = ({ toggle, setToggle, theme }) => {
 								Sorting visualizer made with React
 							</p>
 						</div>
-					</div>
+					</motion.div>
 				</div>
 			) : null}
 		</>

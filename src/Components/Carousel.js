@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import CarouselData from "./CarouselData";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
@@ -12,60 +13,42 @@ const Carousel = ({ slides }) => {
 
 	return (
 		<>
-			<div className="relative h-screen flex items-center justify-center ">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					className="absolute top-1/2 left-2 text-5xl text-black z-10 select-none h-10 w-10"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor"
-					whileHover={{ scale: 1.4 }}
-					initial={{ x: "-1vw", scale: 0.9, opacity: 0 }}
+			<div className="relative h-screen flex items-center justify-center">
+				<motion.div
+					className="absolute left-0 select-none"
+					whileHover={{ scale: 1.2 }}
+					initial={{ x: "-10vw", scale: 0.9, opacity: 0 }}
 					animate={{ x: 0, scale: 1, opacity: 1 }}
-					transition={{ type: "tween" }}
+					transition={{ type: "tween", duration: 0.5 }}
 					onClick={() => {
 						setCurrent(current === 0 ? len - 1 : current - 1);
 					}}
 				>
-					<path
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						strokeWidth={2}
-						d="M10 19l-7-7m0 0l7-7m-7 7h18"
-					/>
-				</svg>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					className="absolute top-1/2 right-2 text-5xl text-black z-10 select-none h-10 w-10"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor"
-					whileHover={{ scale: 1.4 }}
-					initial={{ x: "1vw", scale: 0.9, opacity: 0 }}
+					<AiOutlineArrowLeft size={35} />
+				</motion.div>
+				<motion.div
+					className="absolute right-0 select-none"
+					whileHover={{ scale: 1.2 }}
+					initial={{ x: "10vw", scale: 0.9, opacity: 0 }}
 					animate={{ x: 0, scale: 1, opacity: 1 }}
-					transition={{ type: "tween" }}
+					transition={{ type: "tween", duration: 0.5 }}
 					onClick={() => {
 						setCurrent(current === len - 1 ? 0 : current + 1);
 					}}
 				>
-					<path
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						strokeWidth={2}
-						d="M14 5l7 7m0 0l-7 7m7-7H3"
-					/>
-				</svg>
+					<AiOutlineArrowRight size={35} />
+				</motion.div>
 				{CarouselData.map((slide, index) => {
 					return (
 						<div key={index}>
 							{index === current && (
-								<img
+								<motion.img
 									src={slide.image}
 									alt="photograph"
-									className="h-96 w-full rounded-lg"
-									initial={{ scale: 0.9, opacity: 0 }}
+									className="h-96 w-full"
+									initial={{ scale: 0.9, opacity: 1 }}
 									animate={{ scale: 1, opacity: 1 }}
-									transition={{ type: "tween", duration: 1 }}
+									transition={{ type: "tween", duration: 0.5 }}
 								/>
 							)}
 						</div>

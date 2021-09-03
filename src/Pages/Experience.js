@@ -1,13 +1,18 @@
 import Card from "../Components/Card";
 import test from "../Images/test2.jpg";
+import { motion } from "framer-motion";
 
 const Experience = ({ theme }) => {
 	return (
-		<div>
+		<motion.div
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ type: "tween", duration: 0.7 }}
+		>
 			<h1 className="font-mono text-2xl mt-8">Experience</h1>
 			<Card image={test} text="Sorting Visualizer" theme={theme} />
 			<Card image={test} text="Sorting Visualizer" theme={theme} />
-		</div>
+		</motion.div>
 	);
 };
 

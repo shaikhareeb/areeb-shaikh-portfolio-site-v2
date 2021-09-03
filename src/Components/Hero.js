@@ -5,6 +5,7 @@ import {
 } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
 import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
 
 const Hero = () => {
 	return (
@@ -24,35 +25,43 @@ const Hero = () => {
 				full-stack developer intern at Compass
 			</h2>
 			<div className="mt-6 flex">
-				<AiFillGithub
-					className="mr-8 cursor-pointer"
-					size={40}
-					onClick={() =>
-						window.open("https://github.com/shaikhareeb", "_blank")
-					}
-				/>
-				<AiFillLinkedin
-					className="mr-8 cursor-pointer"
-					size={40}
-					onClick={() =>
-						window.open("https://www.linkedin.com/in/areeb-shaikh/", "_blank")
-					}
-				/>
-				<FiMail
-					className="mr-8 cursor-pointer"
-					size={40}
-					onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
-				/>
-				<AiOutlineFileText
-					className="cursor-pointer"
-					size={38}
-					onClick={() =>
-						window.open(
-							"https://drive.google.com/file/d/1HmPZG05QYC5_xidBcEPtwtbzUFdggoU7/view?usp=sharing",
-							"_blank"
-						)
-					}
-				/>
+				<motion.div whileHover={{ scale: 1.1 }}>
+					<AiFillGithub
+						className="mr-8 cursor-pointer"
+						size={40}
+						onClick={() =>
+							window.open("https://github.com/shaikhareeb", "_blank")
+						}
+					/>
+				</motion.div>
+				<motion.div whileHover={{ scale: 1.1 }}>
+					<AiFillLinkedin
+						className="mr-8 cursor-pointer"
+						size={40}
+						onClick={() =>
+							window.open("https://www.linkedin.com/in/areeb-shaikh/", "_blank")
+						}
+					/>
+				</motion.div>
+				<motion.div whileHover={{ scale: 1.1 }}>
+					<FiMail
+						className="mr-8 cursor-pointer"
+						size={40}
+						onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
+					/>
+				</motion.div>
+				<motion.div whileHover={{ scale: 1.1 }}>
+					<AiOutlineFileText
+						className="cursor-pointer"
+						size={38}
+						onClick={() =>
+							window.open(
+								"https://drive.google.com/file/d/1HmPZG05QYC5_xidBcEPtwtbzUFdggoU7/view?usp=sharing",
+								"_blank"
+							)
+						}
+					/>
+				</motion.div>
 			</div>
 		</div>
 	);

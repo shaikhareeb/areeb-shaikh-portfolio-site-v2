@@ -14,20 +14,20 @@ const Navbar = ({ theme, setTheme }) => {
 
 	return (
 		<nav className="flex justify-between font-mono text-xl">
-			<Link to="/" className="mr-30px">
+			<Link to="/" className="mr-30px hover:underline">
 				AS
 			</Link>
 			<div className="flex">
-				<Link to="/about" className="mr-30px">
+				<Link to="/about" className="mr-30px hover:underline">
 					About
 				</Link>
-				<Link to="/Experience" className="mr-30px">
+				<Link to="/Experience" className="mr-30px hover:underline">
 					Experience
 				</Link>
-				<Link to="/projects" className="mr-30px">
+				<Link to="/projects" className="mr-30px hover:underline">
 					Projects
 				</Link>
-				<Link to="/photography" className="mr-30px">
+				<Link to="/photography" className="mr-30px hover:underline">
 					Photography
 				</Link>
 				<div className="cursor-pointer" onClick={toggleTheme}>

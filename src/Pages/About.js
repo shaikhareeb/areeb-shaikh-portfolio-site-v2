@@ -5,10 +5,15 @@ import {
 	AiOutlineFileText,
 } from "react-icons/ai";
 import { FiMail } from "react-icons/fi";
+import { motion } from "framer-motion";
 
 const About = () => {
 	return (
-		<div>
+		<motion.div
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			transition={{ type: "tween", duration: 0.7 }}
+		>
 			<h1 className="font-mono text-3xl mt-32">About Me</h1>
 			<div className="flex mt-4">
 				<div>
@@ -23,43 +28,51 @@ const About = () => {
 						nulla tellus, tempus eu eleifend in, ornare vitae lectus.
 					</p>
 					<div className="mt-6 flex">
-						<AiFillGithub
-							className="mr-8 cursor-pointer"
-							size={40}
-							onClick={() =>
-								window.open("https://github.com/shaikhareeb", "_blank")
-							}
-						/>
-						<AiFillLinkedin
-							className="mr-8 cursor-pointer"
-							size={40}
-							onClick={() =>
-								window.open(
-									"https://www.linkedin.com/in/areeb-shaikh/",
-									"_blank"
-								)
-							}
-						/>
-						<FiMail
-							className="mr-8 cursor-pointer"
-							size={40}
-							onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
-						/>
-						<AiOutlineFileText
-							className="cursor-pointer"
-							size={38}
-							onClick={() =>
-								window.open(
-									"https://drive.google.com/file/d/1HmPZG05QYC5_xidBcEPtwtbzUFdggoU7/view?usp=sharing",
-									"_blank"
-								)
-							}
-						/>
+						<motion.div whileHover={{ scale: 1.1 }}>
+							<AiFillGithub
+								className="mr-8 cursor-pointer"
+								size={40}
+								onClick={() =>
+									window.open("https://github.com/shaikhareeb", "_blank")
+								}
+							/>
+						</motion.div>
+						<motion.div whileHover={{ scale: 1.1 }}>
+							<AiFillLinkedin
+								className="mr-8 cursor-pointer"
+								size={40}
+								onClick={() =>
+									window.open(
+										"https://www.linkedin.com/in/areeb-shaikh/",
+										"_blank"
+									)
+								}
+							/>
+						</motion.div>
+						<motion.div whileHover={{ scale: 1.1 }}>
+							<FiMail
+								className="mr-8 cursor-pointer"
+								size={40}
+								onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
+							/>
+						</motion.div>
+						<motion.div whileHover={{ scale: 1.1 }}>
+							<AiOutlineFileText
+								className="cursor-pointer"
+								size={38}
+								onClick={() =>
+									window.open(
+										"https://drive.google.com/file/d/1HmPZG05QYC5_xidBcEPtwtbzUFdggoU7/view?usp=sharing",
+										"_blank"
+									)
+								}
+							/>
+						</motion.div>
 					</div>
 				</div>
 				<img className="rounded-md w-1/2" src={test} alt="Me" />
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
