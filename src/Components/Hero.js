@@ -10,21 +10,38 @@ import { motion } from "framer-motion";
 const Hero = () => {
 	return (
 		<div className="font-mono">
-			<h1 className="text-6xl mt-48">
+			<h1 className="text-6xl mt-36">
 				<Typewriter
 					onInit={(typewriter) => {
 						typewriter.typeString("Hey there, I'm Areeb").start();
 					}}
 					options={{
-						delay: 100,
+						delay: 90,
 					}}
 				/>
 			</h1>
-			<h2 className="font-inconsolata text-4xl mt-4">
-				a computer science student at the University of Waterloo and former
-				full-stack developer intern at Compass
+			<h2 className="font-inconsolata text-4xl mt-8 mb-8">
+				a computer science student at uWaterloo and former full-stack developer
+				intern at{" "}
+				<a
+					href="https://checkcompass.ca/"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="font-bold"
+				>
+					Compass
+				</a>{" "}
 			</h2>
-			<div className="mt-6 flex">
+			<h2 className="font-inconsolata text-2xl mt-8 mb-8">
+				check out my featured work below and use the navbar to learn more about
+				me
+			</h2>
+			<motion.div
+				className="mt-6 flex"
+				initial={{ y: "2vw", opacity: 0 }}
+				animate={{ y: 0, opacity: 1 }}
+				transition={{ type: "tween", delay: 0.6, duration: 0.8 }}
+			>
 				<motion.div whileHover={{ scale: 1.1 }}>
 					<AiFillGithub
 						className="mr-8 cursor-pointer"
@@ -62,7 +79,7 @@ const Hero = () => {
 						}
 					/>
 				</motion.div>
-			</div>
+			</motion.div>
 		</div>
 	);
 };

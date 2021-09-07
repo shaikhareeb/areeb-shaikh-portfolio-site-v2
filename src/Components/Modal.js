@@ -13,7 +13,7 @@ const Modal = ({ toggle, setToggle, theme }) => {
 								? { backgroundColor: "white" }
 								: { backgroundColor: "#181818" }
 						}
-						className="fixed w-3/4 h-5/6 shadow-md relative z-10 overflow-auto"
+						className="rounded-md max-w-screen-xl fixed w-3/4 h-5/6 shadow-md relative z-10 overflow-auto"
 						initial={{ y: "10vh" }}
 						animate={{ y: 0 }}
 						transition={{ type: "tween", duration: 0.7 }}

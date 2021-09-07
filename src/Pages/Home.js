@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../Components/Hero";
-import Content from "../Components/Content";
+import Featured from "../Components/Featured";
 import Footer from "../Components/Footer";
 import { motion } from "framer-motion";
 
@@ -12,7 +12,7 @@ const Home = ({ theme }) => {
 			transition={{ type: "tween", duration: 1 }}
 		>
 			<Hero />
-			<Content theme={theme} />
+			<Featured theme={theme} />
 			<Footer />
 		</motion.div>
 	);

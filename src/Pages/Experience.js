@@ -9,9 +9,11 @@ const Experience = ({ theme }) => {
 			animate={{ opacity: 1 }}
 			transition={{ type: "tween", duration: 0.7 }}
 		>
-			<h1 className="font-mono text-2xl mt-8">Experience</h1>
-			<Card image={test} text="Sorting Visualizer" theme={theme} />
-			<Card image={test} text="Sorting Visualizer" theme={theme} />
+			<h1 className="font-mono text-2xl mt-8 mb-4">Experience</h1>
+			<div className="grid grid-cols-1 gap-y-4">
+				<Card image={test} text="Sorting Visualizer" theme={theme} />
+				<Card image={test} text="Sorting Visualizer" theme={theme} />
+			</div>
 		</motion.div>
 	);
 };

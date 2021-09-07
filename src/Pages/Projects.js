@@ -9,8 +9,8 @@ const Projects = ({ theme }) => {
 			animate={{ opacity: 1 }}
 			transition={{ type: "tween", duration: 0.7 }}
 		>
-			<h1 className="font-mono text-2xl mt-8">Projects</h1>
-			<div className="grid grid-cols-2 gap-8">
+			<h1 className="font-mono text-2xl mt-8 mb-4">Projects</h1>
+			<div className="grid md:grid-cols-2 gap-x-4 gap-y-4">
 				<Card image={test} text="Sorting Visualizer" theme={theme} />
 				<Card image={test} text="Sorting Visualizer" theme={theme} />
 			</div>

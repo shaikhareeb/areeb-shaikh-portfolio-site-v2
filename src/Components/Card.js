@@ -9,15 +9,15 @@ const Card = ({ image, text, theme }) => {
 	};
 
 	return (
-		<div className="w-full my-4 mr-5">
+		<div className="w-full">
 			<div
 				style={{
 					backgroundImage: `url(${image})`,
 				}}
-				className="relative w-full h-96"
+				className="rounded-md relative w-full h-96"
 				onClick={toggleModal}
 			>
-				<div className="flex justify-center items-center duration-300 absolute w-full h-full text-zero bg-opacity-0 bg-black text-opacity-0 hover:bg-opacity-50 hover:text-2xl">
+				<div className="rounded-md flex justify-center items-center duration-300 absolute w-full h-full text-zero bg-opacity-0 bg-black text-opacity-0 hover:bg-opacity-50 hover:text-2xl">
 					<p className="font-mono text-white">{text}</p>
 				</div>
 				<Modal toggle={toggle} setToggle={setToggle} theme={theme} />
