@@ -1,6 +1,10 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiSun } from "react-icons/fi";
 import { RiMoonClearLine } from "react-icons/ri";
+import { BiMenuAltRight } from "react-icons/bi";
+import { AiOutlinePlus } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const Navbar = ({ theme, setTheme }) => {
 	localStorage.setItem("mode", theme);
@@ -10,30 +14,78 @@ const Navbar = ({ theme, setTheme }) => {
 	};
 
 	const icon =
-		theme === "light" ? <RiMoonClearLine size={25} /> : <FiSun size={25} />;
+		theme === "light" ? <RiMoonClearLine size={23} /> : <FiSun size={23} />;
+
+	const [drawer, setDrawer] = useState(false);
+
+	const toggleNav = () => {
+		setDrawer(!drawer);
+	};
+
+	const navIcon =
+		drawer === false ? (
+			<motion.div transition={{ type: "tween", duration: 0.5 }}>
+				<BiMenuAltRight size={30} />
+			</motion.div>
+		) : (
+			<motion.div
+				animate={{ rotate: 45 }}
+				transition={{ type: "tween", duration: 0.5 }}
+			>
+				<AiOutlinePlus size={30} />
+			</motion.div>
+		);
 
 	return (
-		<nav className="flex justify-between font-mono text-xl">
-			<Link to="/" className="mr-30px hover:underline">
-				AS
-			</Link>
-			<div className="flex">
-				<Link to="/about" className="mr-30px hover:underline">
-					About
+		<nav className="font-mono text-xl">
+			<div className="flex justify-between">
+				<Link to="/" className="font-bold hover:underline">
+					AS
 				</Link>
-				<Link to="/Experience" className="mr-30px hover:underline">
-					Experience
-				</Link>
-				<Link to="/projects" className="mr-30px hover:underline">
-					Projects
-				</Link>
-				<Link to="/photography" className="mr-30px hover:underline">
-					Photography
-				</Link>
-				<div className="cursor-pointer" onClick={toggleTheme}>
-					{icon}
+				<div className="flex items-center">
+					<div className="hidden md:block">
+						<Link to="/about" className="mr-4 hover:underline">
+							About
+						</Link>
+						<Link to="/Experience" className="mr-4 hover:underline">
+							Experience
+						</Link>
+						<Link to="/projects" className="mr-4 hover:underline">
+							Projects
+						</Link>
+						<Link to="/photography" className="mr-4 hover:underline">
+							Photography
+						</Link>
+					</div>
+					<div className="cursor-pointer" onClick={toggleTheme}>
+						{icon}
+					</div>
+					<button className="ml-2 md:hidden" onClick={toggleNav}>
+						{navIcon}
+					</button>
 				</div>
 			</div>
+			{drawer ? (
+				<motion.div
+					className="flex flex-col border-t-2 border-b-2 border-current mt-4 items-center md:hidden"
+					initial={{ x: "-5vh", opacity: 0 }}
+					animate={{ x: 0, opacity: 1 }}
+					transition={{ type: "tween", duration: 0.5 }}
+				>
+					<Link to="/about" className="mt-4 hover:underline">
+						About
+					</Link>
+					<Link to="/Experience" className="mt-2 hover:underline">
+						Experience
+					</Link>
+					<Link to="/projects" className="mt-2 hover:underline">
+						Projects
+					</Link>
+					<Link to="/photography" className="mt-2 mb-4 hover:underline">
+						Photography
+					</Link>
+				</motion.div>
+			) : null}
 		</nav>
 	);
 };
