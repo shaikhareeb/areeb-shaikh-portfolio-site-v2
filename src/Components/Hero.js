@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
 	return (
 		<div className="font-mono">
-			<h1 className="text-6xl mt-36">
+			<h1 className="md:text-6xl text-3xl md:mt-36 mt-12">
 				<Typewriter
 					onInit={(typewriter) => {
 						typewriter.typeString("Hey there, I'm Areeb").start();
@@ -20,7 +20,7 @@ const Hero = () => {
 					}}
 				/>
 			</h1>
-			<h2 className="font-inconsolata text-4xl mt-8 mb-8">
+			<h2 className="font-inconsolata md:text-4xl text-xl mt-8 mb-8">
 				a computer science student at uWaterloo and former full-stack developer
 				intern at{" "}
 				<a
@@ -32,7 +32,7 @@ const Hero = () => {
 					Compass
 				</a>{" "}
 			</h2>
-			<h2 className="font-inconsolata text-2xl mt-8 mb-8">
+			<h2 className="font-inconsolata md:text-2xl mt-8 mb-8">
 				check out my featured work below and use the navbar to learn more about
 				me
 			</h2>

@@ -14,7 +14,7 @@ const Card = ({ image, text, theme }) => {
 				style={{
 					backgroundImage: `url(${image})`,
 				}}
-				className="rounded-md relative w-full h-96"
+				className="rounded-md relative w-full md:h-96 h-48"
 				onClick={toggleModal}
 			>
 				<div className="rounded-md flex justify-center items-center duration-300 absolute w-full h-full text-zero bg-opacity-0 bg-black text-opacity-0 hover:bg-opacity-50 hover:text-2xl">
