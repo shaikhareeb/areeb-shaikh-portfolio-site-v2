@@ -10,12 +10,11 @@ import about from "../Images/home4.png";
 
 const Home = ({ theme }) => {
 	return (
-		<motion.div
+		<div
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ type: "tween", duration: 1 }}
 		>
-			<Hero />
 			<div className="md:mt-24 mt-12 grid grid-cols-1 md:gap-y-5 gap-y-4">
 				<HomeCard image={experience} route="/experience" />
 				<HomeCard image={projects} route="/projects" />
@@ -23,7 +22,7 @@ const Home = ({ theme }) => {
 				<HomeCard image={about} route="/about" />
 			</div>
 			<Footer />
-		</motion.div>
+		</div>
 	);
 };
 
