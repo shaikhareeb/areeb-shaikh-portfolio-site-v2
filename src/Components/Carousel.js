@@ -15,7 +15,7 @@ const Carousel = ({ slides }) => {
 		<>
 			<div className="relative h-screen flex items-center justify-center">
 				<motion.div
-					className="absolute left-0 select-none"
+					className="absolute left-0 cursor-pointer select-none"
 					whileHover={{ scale: 1.2 }}
 					initial={{ x: "-10vw", scale: 0.9, opacity: 0 }}
 					animate={{ x: 0, scale: 1, opacity: 1 }}
@@ -27,7 +27,7 @@ const Carousel = ({ slides }) => {
 					<AiOutlineArrowLeft size={35} />
 				</motion.div>
 				<motion.div
-					className="absolute right-0 select-none"
+					className="absolute right-0 cursor-pointer select-none"
 					whileHover={{ scale: 1.2 }}
 					initial={{ x: "10vw", scale: 0.9, opacity: 0 }}
 					animate={{ x: 0, scale: 1, opacity: 1 }}
@@ -40,17 +40,19 @@ const Carousel = ({ slides }) => {
 				</motion.div>
 				{CarouselData.map((slide, index) => {
 					return (
-						<div key={index}>
-							{index === current && (
-								<motion.img
-									src={slide.image}
-									alt="photograph"
-									className="h-96 w-full"
-									initial={{ scale: 0.9, opacity: 1 }}
-									animate={{ scale: 1, opacity: 1 }}
-									transition={{ type: "tween", duration: 0.5 }}
-								/>
-							)}
+						<div className="md:h-1/2 flex justify-center" key={index}>
+							<div className="h-full md:w-full w-3/4">
+								{index === current && (
+									<motion.img
+										src={slide.image}
+										alt="photograph"
+										className="h-full object-contain rounded-md"
+										initial={{ scale: 0.9, opacity: 1 }}
+										animate={{ scale: 1, opacity: 1 }}
+										transition={{ type: "tween", duration: 0.5 }}
+									/>
+								)}
+							</div>
 						</div>
 					);
 				})}

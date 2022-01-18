@@ -20,21 +20,20 @@ const Hero = () => {
 					}}
 				/>
 			</h1>
-			<h2 className="font-inconsolata md:text-4xl text-xl mt-8 mb-8">
-				a computer science student at uWaterloo and former full-stack developer
-				intern at{" "}
+			<h2 className="font-inconsolata md:text-4xl text-xl mt-8 mb-4">
+				a Computer Science student at uWaterloo and an aspiring Software
+				Engineer
+			</h2>
+			<h2 className="font-inconsolata md:text-2xl text-sm mb-8">
+				Seeking Summer 2022 Internships | Previously{" "}
 				<a
 					href="https://checkcompass.ca/"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="font-bold"
 				>
-					Compass
+					@ Compass
 				</a>{" "}
-			</h2>
-			<h2 className="font-inconsolata md:text-2xl mt-8 mb-8">
-				check out my featured work below and use the navbar to learn more about
-				me
 			</h2>
 			<motion.div
 				className="mt-6 flex"
@@ -44,8 +43,7 @@ const Hero = () => {
 			>
 				<motion.div whileHover={{ scale: 1.1 }}>
 					<AiFillGithub
-						className="mr-8 cursor-pointer"
-						size={40}
+						className="mr-8 cursor-pointer md:text-5xl text-3xl"
 						onClick={() =>
 							window.open("https://github.com/shaikhareeb", "_blank")
 						}
@@ -53,8 +51,7 @@ const Hero = () => {
 				</motion.div>
 				<motion.div whileHover={{ scale: 1.1 }}>
 					<AiFillLinkedin
-						className="mr-8 cursor-pointer"
-						size={40}
+						className="mr-8 cursor-pointer md:text-5xl text-3xl"
 						onClick={() =>
 							window.open("https://www.linkedin.com/in/areeb-shaikh/", "_blank")
 						}
@@ -62,18 +59,16 @@ const Hero = () => {
 				</motion.div>
 				<motion.div whileHover={{ scale: 1.1 }}>
 					<FiMail
-						className="mr-8 cursor-pointer"
-						size={40}
+						className="mr-8 cursor-pointer md:text-5xl text-3xl"
 						onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
 					/>
 				</motion.div>
 				<motion.div whileHover={{ scale: 1.1 }}>
 					<AiOutlineFileText
-						className="cursor-pointer"
-						size={38}
+						className="cursor-pointer md:text-5xl text-3xl"
 						onClick={() =>
 							window.open(
-								"https://drive.google.com/file/d/1HmPZG05QYC5_xidBcEPtwtbzUFdggoU7/view?usp=sharing",
+								"https://drive.google.com/file/d/1SOPmo4UfwWZreXH8TP6v9Cg9OuJtN0kA/view?usp=sharing",
 								"_blank"
 							)
 						}

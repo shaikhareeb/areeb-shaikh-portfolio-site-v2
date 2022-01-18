@@ -39,9 +39,15 @@ const Navbar = ({ theme, setTheme }) => {
 	return (
 		<nav className="font-mono text-xl">
 			<div className="flex justify-between">
-				<Link to="/" className="font-bold hover:underline">
-					AS
-				</Link>
+				<motion.div whileHover={{ scale: 1.2 }}>
+					<Link to="/" className="font-bold hover:underline">
+						<img
+							className="h-6 mt-2"
+							src="https://img.icons8.com/android/50/000000/user-male.png"
+							alt="icon"
+						/>
+					</Link>
+				</motion.div>
 				<div className="flex items-center">
 					<div className="hidden md:block">
 						<Link to="/about" className="mr-4 hover:underline">
@@ -57,9 +63,13 @@ const Navbar = ({ theme, setTheme }) => {
 							Photography
 						</Link>
 					</div>
-					<div className="cursor-pointer" onClick={toggleTheme}>
+					<motion.div
+						whileHover={{ scale: 1.2 }}
+						className="cursor-pointer"
+						onClick={toggleTheme}
+					>
 						{icon}
-					</div>
+					</motion.div>
 					<button className="ml-2 md:hidden" onClick={toggleNav}>
 						{navIcon}
 					</button>
