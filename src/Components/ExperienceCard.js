@@ -18,11 +18,12 @@ const Card = ({ image, text, text2, theme, date, body }) => {
 				onClick={toggleModal}
 			>
 				<div
-					className="cursor-pointer rounded-md flex flex-col justify-center items-center duration-300 absolute w-full h-full 
-							   text-zero bg-opacity-0 bg-black text-opacity-0 hover:bg-opacity-50 md:hover:text-2xl hover:text-lg"
+					className="cursor-pointer rounded-md md:flex hidden flex-col justify-center items-center duration-300 
+							absolute w-full h-full text-zero bg-opacity-0 bg-black text-opacity-0 hover:bg-opacity-50 
+							hover:text-2xl"
 				>
 					<p className="font-mono text-white">{text}</p>
-					<p className="md:hover:text-xl hover:text-base font-inconsolata text-white">
+					<p className="md:hover:text-xl hover:text-sm font-inconsolata text-white">
 						{text2}
 					</p>
 				</div>
