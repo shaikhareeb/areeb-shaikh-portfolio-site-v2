@@ -1,3 +1,3 @@
-# Portfolio Site V2
+# areebshaikh.me
 
-Version 2 of my portfolio website made with React.js and Tailwind CSS.
+Personal website made with React and TailwindCSS! Check it out at https://areebshaikh.me/
