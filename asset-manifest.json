@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.93faf4c9.chunk.css",
-    "main.js": "/static/js/main.cf4de955.chunk.js",
-    "main.js.map": "/static/js/main.cf4de955.chunk.js.map",
+    "main.css": "/static/css/main.24d04b59.chunk.css",
+    "main.js": "/static/js/main.bae14d12.chunk.js",
+    "main.js.map": "/static/js/main.bae14d12.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0d1ac329.js",
     "runtime-main.js.map": "/static/js/runtime-main.0d1ac329.js.map",
     "static/js/2.f5a00c10.chunk.js": "/static/js/2.f5a00c10.chunk.js",
     "static/js/2.f5a00c10.chunk.js.map": "/static/js/2.f5a00c10.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.93faf4c9.chunk.css.map": "/static/css/main.93faf4c9.chunk.css.map",
+    "static/css/main.24d04b59.chunk.css.map": "/static/css/main.24d04b59.chunk.css.map",
     "static/js/2.f5a00c10.chunk.js.LICENSE.txt": "/static/js/2.f5a00c10.chunk.js.LICENSE.txt",
     "static/media/cards.8ca630d8.png": "/static/media/cards.8ca630d8.png",
     "static/media/compass.152b2dfa.png": "/static/media/compass.152b2dfa.png",
@@ -57,7 +57,7 @@
   "entrypoints": [
     "static/js/runtime-main.0d1ac329.js",
     "static/js/2.f5a00c10.chunk.js",
-    "static/css/main.93faf4c9.chunk.css",
-    "static/js/main.cf4de955.chunk.js"
+    "static/css/main.24d04b59.chunk.css",
+    "static/js/main.bae14d12.chunk.js"
   ]
 }
