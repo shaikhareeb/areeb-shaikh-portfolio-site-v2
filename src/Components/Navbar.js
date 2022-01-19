@@ -40,7 +40,7 @@ const Navbar = ({ theme, setTheme }) => {
 		<nav className="font-mono text-xl">
 			<div className="flex justify-between">
 				<motion.div whileHover={{ scale: 1.2 }}>
-					<Link to="/portfolio/" className="font-bold hover:underline">
+					<Link to="/" className="font-bold hover:underline">
 						<img
 							className="h-6 mt-2"
 							src="https://img.icons8.com/android/50/000000/user-male.png"
