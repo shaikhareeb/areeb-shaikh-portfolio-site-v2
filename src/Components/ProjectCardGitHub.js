@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ModalGitHub from "./ModalGitHub";
 
-const ProjectCardGitHub = ({ image, text, theme }) => {
+const ProjectCardGitHub = ({ image, text, theme, tech, body, link }) => {
 	const [toggle, setToggle] = useState(false);
 
 	const toggleModal = () => {
@@ -25,6 +25,10 @@ const ProjectCardGitHub = ({ image, text, theme }) => {
 					toggle={toggle}
 					setToggle={setToggle}
 					theme={theme}
+					header={text}
+					tech={tech}
+					body={body}
+					link={link}
 				/>
 			</div>
 		</div>

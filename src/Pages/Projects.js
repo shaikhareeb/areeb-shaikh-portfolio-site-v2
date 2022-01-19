@@ -17,16 +17,30 @@ const Projects = ({ theme }) => {
 				<ProjectCardGH
 					image={sorting}
 					text="Sorting Visualizer"
+					tech="React, JavaScript, HTML/CSS"
+					body="Web app that visualizes Heap Sort, Merge Sort, Quick Sort, Selection Sort, Insertion Sort, 
+					and Bubble Sort with the ability to randomize and generate new values for the array."
+					link="https://github.com/shaikhareeb/sorting-visualizer"
 					theme={theme}
 				/>
 				<ProjectCardNoGH
 					image={cards}
-					text="Straights Card Game"
+					text="Straights (Card Game)"
+					tech="C++"
+					body="Created as part of CS246: Object-Oriented Software Development.
+						Straights is a four-player command line card game created using object-oriented programming 
+						and includes functional playability for both human and computer players.
+						Utilizes Model-View-Controller (MVC) and Observer design patterns. 
+						The source code is not available online due to copyright."
 					theme={theme}
 				/>
 				<ProjectCardGH
 					image={portfolio}
 					text="Personal Website"
+					tech="React, JavaScript, TailwindCSS"
+					body="This website right here! Developed a fully responsive portfolio website from scratch
+					 complete with animations and themes to serve as a more comprehensive resume."
+					link="https://github.com/shaikhareeb/areebshaikh.me"
 					theme={theme}
 				/>
 			</div>

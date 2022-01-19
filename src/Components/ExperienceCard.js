@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "./ExperienceModal";
 
-const Card = ({ image, text, text2, theme }) => {
+const Card = ({ image, text, text2, theme, date, body }) => {
 	const [toggle, setToggle] = useState(false);
 
 	const toggleModal = () => {
@@ -30,7 +30,10 @@ const Card = ({ image, text, text2, theme }) => {
 					image={image}
 					toggle={toggle}
 					setToggle={setToggle}
+					header={text}
+					date={date}
 					theme={theme}
+					body={body}
 				/>
 			</div>
 		</div>

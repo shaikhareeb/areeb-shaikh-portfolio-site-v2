@@ -17,7 +17,7 @@ const About = () => {
 			<h1 className="font-mono text-2xl mt-8 mb-8">About Me</h1>
 			<div className="flex md:relative flex-col justify-center md:items-start items-center">
 				<div className="md:w-4/6">
-					<p className="mb-6">
+					<p className="md:mb-8 mb-6">
 						👋 Hey! I'm Areeb, pleasure to meet you. Here's a little about me:
 					</p>
 					<div className="mb-4">
@@ -55,20 +55,20 @@ const About = () => {
 						</button>
 						<span>
 							{" "}
-							Photography, Basketball, Hip-Hop/R&B, Sneakers, Investing
+							Photography, Basketball, Investing, Travel, Hip-Hop/R&B, Sneakers
 						</span>
 					</div>
 					<p className="mb-2">
 						I am a programming enthusiast and avid learner, motivated by my
 						desire to take on challenges and innovate impactful solutions.
 					</p>
-					<p className="md:mb-0 mb-12">
+					<p className="md:mb-0 mb-8">
 						If you'd like to chat, feel free to reach out to me via email or
 						LinkedIn!
 					</p>
 				</div>
 				<img
-					className="rounded-md md:h-96 md:w-auto w-1/2 md:absolute md:right-0"
+					className="rounded-md md:h-96 md:w-auto w-1/2 md:absolute md:right-0 md:mb-0 mb-2"
 					src={me}
 					alt="Me"
 				/>
@@ -76,7 +76,7 @@ const About = () => {
 			<div className="mt-6 flex md:justify-start justify-center">
 				<motion.div whileHover={{ scale: 1.1 }}>
 					<AiFillGithub
-						className="mr-8 cursor-pointer"
+						className="md:mr-8 mr-6 cursor-pointer"
 						size={40}
 						onClick={() =>
 							window.open("https://github.com/shaikhareeb", "_blank")
@@ -85,7 +85,7 @@ const About = () => {
 				</motion.div>
 				<motion.div whileHover={{ scale: 1.1 }}>
 					<AiFillLinkedin
-						className="mr-8 cursor-pointer"
+						className="md:mr-8 mr-6 cursor-pointer"
 						size={40}
 						onClick={() =>
 							window.open("https://www.linkedin.com/in/areeb-shaikh/", "_blank")
@@ -94,7 +94,7 @@ const About = () => {
 				</motion.div>
 				<motion.div whileHover={{ scale: 1.1 }}>
 					<FiMail
-						className="mr-8 cursor-pointer"
+						className="md:mr-8 mr-6 cursor-pointer"
 						size={40}
 						onClick={() => window.open("mailto:a59shaik@uwaterloo.ca")}
 					/>
@@ -105,7 +105,7 @@ const About = () => {
 						size={38}
 						onClick={() =>
 							window.open(
-								"https://drive.google.com/file/d/1SOPmo4UfwWZreXH8TP6v9Cg9OuJtN0kA/view?usp=sharing",
+								"https://drive.google.com/file/d/1G0GMJAIvYxOSWiBm-Vp_QkSGC8tFHq5A/view?usp=sharing",
 								"_blank"
 							)
 						}

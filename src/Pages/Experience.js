@@ -15,6 +15,28 @@ const Experience = ({ theme }) => {
 					image={compass}
 					text="Full-Stack Developer Intern @ Compass"
 					text2="May 2021 - August 2021"
+					date="May 2021 - August 2021 | Toronto, ON"
+					body={
+						<>
+							<li>
+								Spearheaded full stack development of a B2B SaaS platform used
+								by thousands of students at multiple Canadian universities
+							</li>
+							<li>
+								Developed REST APIs and the front-end implementation of various
+								new features and UI/UX updates
+							</li>
+							<li>
+								Implemented the functionality to automatically populate the
+								database via CSV, significantly improving efficiency by
+								eliminating countless hours of tedious manual labor
+							</li>
+							<li>
+								Technologies utilized include React, Django, PostgreSQL,
+								JavaScript, HTML/SCSS
+							</li>
+						</>
+					}
 					theme={theme}
 				/>
 			</div>

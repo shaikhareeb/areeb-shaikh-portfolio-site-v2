@@ -2,11 +2,23 @@ import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 import { AiFillGithub } from "react-icons/ai";
 
-const ModalGitHub = ({ toggle, setToggle, theme, image }) => {
+const ModalGitHub = ({
+	toggle,
+	setToggle,
+	theme,
+	image,
+	header,
+	tech,
+	body,
+	link,
+}) => {
 	return (
 		<>
 			{toggle ? (
-				<div className="top-0 left-0 right-0 bottom-0 z-20 w-full h-full fixed bg-black bg-opacity-50 flex justify-center items-center">
+				<div
+					className="top-0 left-0 right-0 bottom-0 z-20 w-full h-full fixed bg-black 
+							bg-opacity-50 flex justify-center items-center"
+				>
 					<motion.div
 						style={
 							theme === "light"
@@ -23,7 +35,7 @@ const ModalGitHub = ({ toggle, setToggle, theme, image }) => {
 							style={{
 								backgroundImage: `url(${image})`,
 							}}
-							className="bg-no-repeat bg-contain bg-center w-full h-4/6 bg-gray-200"
+							className="bg-no-repeat bg-contain bg-center w-full md:h-4/6 h-1/2 bg-gray-200"
 						/>
 						<div
 							className="top-2 right-2 absolute text-white cursor-pointer"
@@ -31,15 +43,17 @@ const ModalGitHub = ({ toggle, setToggle, theme, image }) => {
 						>
 							<MdClose color="black" size={25} />
 						</div>
-						<div className="mt-4 ml-4 font-mono text-3xl">
-							<p></p>
-							<p className="font-inconsolata text-xl pt-2 italic"></p>
-							<p className="font-inconsolata text-xl pt-2"></p>
+						<div className="mt-4 ml-4 md:text-2xl text-xl">
+							<p className="font-mono">{header}</p>
+							<p className="md:text-lg text-base italic font-inconsolata">
+								{tech}
+							</p>
+							<p className="md:text-lg text-base mt-4 mb-4 font-inconsolata">
+								{body}
+							</p>
 							<AiFillGithub
-								className="cursor-pointer md:text-5xl text-3xl absolute bottom-3 right-3"
-								onClick={() =>
-									window.open("https://github.com/shaikhareeb", "_blank")
-								}
+								className="cursor-pointer md:text-5xl text-3xl absolute top-3 left-3 text-black hover:text-blue-300"
+								onClick={() => window.open(link, "_blank")}
 							/>
 						</div>
 					</motion.div>

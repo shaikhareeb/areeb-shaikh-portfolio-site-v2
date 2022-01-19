@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiSun } from "react-icons/fi";
-import { RiMoonClearLine } from "react-icons/ri";
+import { RiMoonClearFill } from "react-icons/ri";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlinePlus } from "react-icons/ai";
+import { FaHome } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Navbar = ({ theme, setTheme }) => {
@@ -14,7 +15,7 @@ const Navbar = ({ theme, setTheme }) => {
 	};
 
 	const icon =
-		theme === "light" ? <RiMoonClearLine size={23} /> : <FiSun size={23} />;
+		theme === "light" ? <RiMoonClearFill size={23} /> : <FiSun size={23} />;
 
 	const [drawer, setDrawer] = useState(false);
 
@@ -40,12 +41,8 @@ const Navbar = ({ theme, setTheme }) => {
 		<nav className="font-mono text-xl">
 			<div className="flex justify-between">
 				<motion.div whileHover={{ scale: 1.2 }}>
-					<Link to="/" className="font-bold hover:underline">
-						<img
-							className="h-6 mt-2"
-							src="https://img.icons8.com/android/50/000000/user-male.png"
-							alt="icon"
-						/>
+					<Link to="/">
+						<FaHome className="mt-1" size={23} />
 					</Link>
 				</motion.div>
 				<div className="flex items-center">
@@ -82,16 +79,32 @@ const Navbar = ({ theme, setTheme }) => {
 					animate={{ x: 0, opacity: 1 }}
 					transition={{ type: "tween", duration: 0.5 }}
 				>
-					<Link to="/about" className="mt-4 hover:underline">
+					<Link
+						to="/about"
+						className="mt-4 hover:underline"
+						onClick={toggleNav}
+					>
 						About
 					</Link>
-					<Link to="/Experience" className="mt-2 hover:underline">
+					<Link
+						to="/Experience"
+						className="mt-2 hover:underline"
+						onClick={toggleNav}
+					>
 						Experience
 					</Link>
-					<Link to="/projects" className="mt-2 hover:underline">
+					<Link
+						to="/projects"
+						className="mt-2 hover:underline"
+						onClick={toggleNav}
+					>
 						Projects
 					</Link>
-					<Link to="/photography" className="mt-2 mb-4 hover:underline">
+					<Link
+						to="/photography"
+						className="mt-2 mb-4 hover:underline"
+						onClick={toggleNav}
+					>
 						Photography
 					</Link>
 				</motion.div>

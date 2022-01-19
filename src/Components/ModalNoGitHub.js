@@ -1,7 +1,15 @@
 import { MdClose } from "react-icons/md";
 import { motion } from "framer-motion";
 
-const ModalNoGitHub = ({ toggle, setToggle, theme, image }) => {
+const ModalNoGitHub = ({
+	toggle,
+	setToggle,
+	theme,
+	image,
+	header,
+	tech,
+	body,
+}) => {
 	return (
 		<>
 			{toggle ? (
@@ -12,7 +20,7 @@ const ModalNoGitHub = ({ toggle, setToggle, theme, image }) => {
 								? { backgroundColor: "white" }
 								: { backgroundColor: "#181818" }
 						}
-						className="rounded-md max-w-screen-xl fixed w-3/4 md:h-5/6 h-3/5 shadow-md relative z-10 overflow-auto"
+						className="rounded-md max-w-screen-xl fixed w-3/4 md:h-5/6 h-3/5 shadow-md z-10 overflow-auto"
 						initial={{ y: "10vh" }}
 						animate={{ y: 0 }}
 						transition={{ type: "tween", duration: 0.7 }}
@@ -22,7 +30,7 @@ const ModalNoGitHub = ({ toggle, setToggle, theme, image }) => {
 							style={{
 								backgroundImage: `url(${image})`,
 							}}
-							className="bg-no-repeat bg-contain bg-center relative w-full h-4/6 bg-gray-200"
+							className="bg-no-repeat bg-contain bg-center w-full md:h-4/6 h-1/2 bg-gray-200"
 						/>
 						<div
 							className="top-2 right-2 absolute text-white cursor-pointer"
@@ -30,9 +38,14 @@ const ModalNoGitHub = ({ toggle, setToggle, theme, image }) => {
 						>
 							<MdClose color="black" size={25} />
 						</div>
-						<div className="mt-4 ml-4 font-mono text-3xl text-center">
-							<p></p>
-							<p className="font-inconsolata text-xl pt-2"></p>
+						<div className="mt-4 ml-4 md:text-2xl text-xl">
+							<p className="font-mono">{header}</p>
+							<p className="md:text-lg text-base italic font-inconsolata">
+								{tech}
+							</p>
+							<p className="md:text-lg text-base mt-4 mb-4 font-inconsolata">
+								{body}
+							</p>
 						</div>
 					</motion.div>
 				</div>
