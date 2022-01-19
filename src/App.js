@@ -45,7 +45,7 @@ const App = () => {
 				<div className="mt-6 m-auto p-4 max-w-screen-lg">
 					<Navbar theme={theme} setTheme={setTheme} />
 					<Switch>
-						<Route exact path="/">
+						<Route exact path="/portfolio">
 							<Home theme={theme} />
 						</Route>
 						<Route exact path="/about">
