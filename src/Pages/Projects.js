@@ -3,7 +3,9 @@ import ProjectCardNoGH from "../Components/ProjectCardNoGitHub";
 import sorting from "../Images/sorting.png";
 import portfolio from "../Images/portfolio.png";
 import cards from "../Images/cards.png";
+import compiler from "../Images/compiler.png";
 import { motion } from "framer-motion";
+import Footer from "../Components/Footer";
 
 const Projects = ({ theme }) => {
 	return (
@@ -14,6 +16,17 @@ const Projects = ({ theme }) => {
 		>
 			<h1 className="font-mono text-2xl mt-8 mb-4">Projects</h1>
 			<div className="grid md:grid-cols-2 gap-x-4 gap-y-4">
+				<ProjectCardNoGH
+					image={compiler}
+					text="Compiler"
+					tech="C++"
+					body="Created as part of CS241: Foundations of Sequential Programs.
+						Straights is a four-player command line card game created using object-oriented programming 
+						and includes functional playability for both human and computer players.
+						Utilizes Model-View-Controller (MVC) and Observer design patterns. 
+						The source code is not available online due to copyright."
+					theme={theme}
+				/>
 				<ProjectCardGH
 					image={sorting}
 					text="Sorting Visualizer"
@@ -44,6 +57,7 @@ const Projects = ({ theme }) => {
 					theme={theme}
 				/>
 			</div>
+			<Footer />
 		</motion.div>
 	);
 };

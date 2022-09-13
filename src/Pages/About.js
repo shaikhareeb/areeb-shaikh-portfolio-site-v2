@@ -30,23 +30,21 @@ const About = () => {
 						<button className="cursor-text bg-indigo-200 px-2 mr-2 rounded-sm text-black">
 							Education
 						</button>
-						<span> 2B Computer Science, University of Waterloo</span>
+						<span> 3A Computer Science, University of Waterloo</span>
 					</div>
 					<div className="mb-4">
 						<button className="cursor-text bg-blue-200 px-2 mr-2 rounded-sm text-black">
 							Languages
 						</button>
-						<span>
-							C/C++, JavaScript/TypeScript, Python, HTML/CSS/SCSS, Racket
-						</span>
+						<span>C/C++, JavaScript, Python, HTML/CSS, Racket</span>
 					</div>
 					<div className="mb-4">
 						<button className="cursor-text bg-yellow-200 px-2 mr-2 rounded-sm text-black">
 							Technologies
 						</button>
 						<span>
-							React, Django, PostgreSQL, GraphQL, Node.js, Redis, TypeORM, URQL,
-							Next.js, Chakra UI, TailwindCSS, Bootstrap, Git
+							React, Django, PostgreSQL, TailwindCSS, Bootstrap, Git, Oracle
+							Database, Oracle APEX, Framer Motion
 						</span>
 					</div>
 					<div className="md:mb-6 mb-4">
@@ -112,6 +110,11 @@ const About = () => {
 					/>
 				</motion.div>
 			</div>
+			<footer className="h-16">
+				<h1 className="pt-6 font-mono md:text-left text-center md:text-sm text-xs">
+					Designed & Developed by Areeb Shaikh © 2022
+				</h1>
+			</footer>
 		</motion.div>
 	);
 };

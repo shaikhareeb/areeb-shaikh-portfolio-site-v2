@@ -23,7 +23,7 @@ const Card = ({ image, text, text2, theme, date, body }) => {
 							hover:text-2xl"
 				>
 					<p className="font-mono text-white">{text}</p>
-					<p className="md:hover:text-xl hover:text-sm font-inconsolata text-white">
+					<p className="md:hover:text-2xl font-inconsolata text-white">
 						{text2}
 					</p>
 				</div>

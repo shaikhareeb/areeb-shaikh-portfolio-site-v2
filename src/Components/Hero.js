@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
 	return (
 		<div className="font-mono">
-			<h1 className="md:text-6xl text-2xl md:mt-36 mt-12">
+			<h1 className="md:text-6xl text-2xl md:mt-24 mt-12">
 				<Typewriter
 					onInit={(typewriter) => {
 						typewriter.typeString("Hey there, I'm Areeb").start();
@@ -21,18 +21,26 @@ const Hero = () => {
 				/>
 			</h1>
 			<h2 className="font-inconsolata md:text-4xl text-xl md:mt-8 mt-4 mb-4">
-				a Computer Science student at uWaterloo and an aspiring Software
-				Engineer
+				a third-year Computer Science student at uWaterloo passionate about all
+				things tech
 			</h2>
 			<h2 className="font-inconsolata md:text-2xl text-sm mb-8">
-				Seeking Summer 2022 Internships | Previously{" "}
+				Seeking Winter 2023 Internships | Previously{" "}
+				<a
+					href="https://www.york.ca/"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="font-bold"
+				>
+					@ York Region,
+				</a>{" "}
 				<a
 					href="https://checkcompass.ca/"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="font-bold"
 				>
-					@ Compass
+					Compass
 				</a>{" "}
 			</h2>
 			<motion.div
