@@ -53,7 +53,8 @@ const About = () => {
 						</button>
 						<span>
 							{" "}
-							Photography, Basketball, Athletics, Travel, Hip-Hop/R&B, Sneakers
+							Photography, Basketball, Athletics, Travel, Hip-Hop/R&B, Sneakers,
+							Sitcoms
 						</span>
 					</div>
 					<p className="mb-2">
