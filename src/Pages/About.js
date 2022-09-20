@@ -103,7 +103,7 @@ const About = () => {
 						size={38}
 						onClick={() =>
 							window.open(
-								"https://drive.google.com/file/d/1G0GMJAIvYxOSWiBm-Vp_QkSGC8tFHq5A/view?usp=sharing",
+								"https://drive.google.com/file/d/12jbhXRFCqzJENK9hWbNWkvvsXIKmjvRf/view?usp=sharing",
 								"_blank"
 							)
 						}
