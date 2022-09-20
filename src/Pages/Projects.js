@@ -20,11 +20,9 @@ const Projects = ({ theme }) => {
 					image={compiler}
 					text="Compiler"
 					tech="C++"
-					body="Created as part of CS241: Foundations of Sequential Programs.
-						Straights is a four-player command line card game created using object-oriented programming 
-						and includes functional playability for both human and computer players.
-						Utilizes Model-View-Controller (MVC) and Observer design patterns. 
-						The source code is not available online due to copyright."
+					body="Created as part of CS241: Foundations of Sequential Programs. Built a compiler for a C++ derived language into assembly and further into machine code. 
+					Implemented a scanner, parser, semantic analyzer, code generator, and assembler. Additionally, utilized dynamic memory management, symbol tables, and linkers.
+					The source code is not available online due to copyright."
 					theme={theme}
 				/>
 				<ProjectCardGH

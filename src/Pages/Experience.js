@@ -21,21 +21,25 @@ const Experience = ({ theme }) => {
 					body={
 						<>
 							<li>
-								Spearheaded full stack development of a B2B SaaS platform used
-								by thousands of students at multiple Canadian universities
+								Developed a web application that tracks the motor vehicle
+								accidents of more than 1.17 million people
 							</li>
 							<li>
-								Developed REST APIs and the front-end implementation of various
-								new features and UI/UX updates
+								Performed extensive data modelling, use case creation, and
+								requirement gathering to meet user needs
 							</li>
 							<li>
-								Implemented the functionality to automatically populate the
-								database via CSV, significantly improving efficiency by
-								eliminating countless hours of tedious manual labor
+								Created scripts to automate database creation, duplication, and
+								backup, improving efficiency by 80%
 							</li>
 							<li>
-								Technologies utilized include React, Django, PostgreSQL,
-								JavaScript, HTML/SCSS
+								Engaged in extensive software testing, documentation, go-live,
+								and deployment activities for various departmental applications,
+								resulting in a smooth user experience
+							</li>
+							<li>
+								Technologies utilized include SQL, JavaScript, Oracle Database,
+								and Oracle APEX
 							</li>
 						</>
 					}
@@ -63,7 +67,7 @@ const Experience = ({ theme }) => {
 							</li>
 							<li>
 								Technologies utilized include React, Django, PostgreSQL,
-								JavaScript, HTML/SCSS
+								JavaScript, and HTML/CSS
 							</li>
 						</>
 					}
