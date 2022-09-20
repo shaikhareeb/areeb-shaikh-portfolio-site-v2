@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9d80ac3.chunk.css",
-    "main.js": "/static/js/main.190e7dd2.chunk.js",
-    "main.js.map": "/static/js/main.190e7dd2.chunk.js.map",
+    "main.css": "/static/css/main.bb7da08f.chunk.css",
+    "main.js": "/static/js/main.61d894bb.chunk.js",
+    "main.js.map": "/static/js/main.61d894bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0d1ac329.js",
     "runtime-main.js.map": "/static/js/runtime-main.0d1ac329.js.map",
     "static/js/2.f5a00c10.chunk.js": "/static/js/2.f5a00c10.chunk.js",
     "static/js/2.f5a00c10.chunk.js.map": "/static/js/2.f5a00c10.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e9d80ac3.chunk.css.map": "/static/css/main.e9d80ac3.chunk.css.map",
+    "static/css/main.bb7da08f.chunk.css.map": "/static/css/main.bb7da08f.chunk.css.map",
     "static/js/2.f5a00c10.chunk.js.LICENSE.txt": "/static/js/2.f5a00c10.chunk.js.LICENSE.txt",
     "static/media/cards.8ca630d8.png": "/static/media/cards.8ca630d8.png",
     "static/media/compass.152b2dfa.png": "/static/media/compass.152b2dfa.png",
-    "static/media/home.dbe51fe3.png": "/static/media/home.dbe51fe3.png",
+    "static/media/compiler.cd756067.png": "/static/media/compiler.cd756067.png",
     "static/media/home2.cfa6a5a2.png": "/static/media/home2.cfa6a5a2.png",
     "static/media/home3.1a6463a9.png": "/static/media/home3.1a6463a9.png",
     "static/media/home4.176bfa48.png": "/static/media/home4.176bfa48.png",
@@ -52,12 +52,14 @@
     "static/media/shaikh_img7.75cb69bf.jpg": "/static/media/shaikh_img7.75cb69bf.jpg",
     "static/media/shaikh_img8.dd5a87f7.jpg": "/static/media/shaikh_img8.dd5a87f7.jpg",
     "static/media/shaikh_img9.b3e58604.jpg": "/static/media/shaikh_img9.b3e58604.jpg",
-    "static/media/sorting.8f17ab4b.png": "/static/media/sorting.8f17ab4b.png"
+    "static/media/sorting.8f17ab4b.png": "/static/media/sorting.8f17ab4b.png",
+    "static/media/york_experience.04835074.png": "/static/media/york_experience.04835074.png",
+    "static/media/york_home.16264fee.png": "/static/media/york_home.16264fee.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0d1ac329.js",
     "static/js/2.f5a00c10.chunk.js",
-    "static/css/main.e9d80ac3.chunk.css",
-    "static/js/main.190e7dd2.chunk.js"
+    "static/css/main.bb7da08f.chunk.css",
+    "static/js/main.61d894bb.chunk.js"
   ]
 }
