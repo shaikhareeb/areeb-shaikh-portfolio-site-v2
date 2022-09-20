@@ -36,15 +36,15 @@ const About = () => {
 						<button className="cursor-text bg-blue-200 px-2 mr-2 rounded-sm text-black">
 							Languages
 						</button>
-						<span>C/C++, JavaScript, Python, HTML/CSS, Racket</span>
+						<span>C/C++, JavaScript, Python, SQL, HTML/CSS, Racket</span>
 					</div>
 					<div className="mb-4">
 						<button className="cursor-text bg-yellow-200 px-2 mr-2 rounded-sm text-black">
 							Technologies
 						</button>
 						<span>
-							React, Django, PostgreSQL, TailwindCSS, Bootstrap, Git, Oracle
-							Database, Oracle APEX, Framer Motion
+							React, Django, PostgreSQL, TailwindCSS, Git, Oracle Database,
+							Oracle APEX, Bootstrap, Framer Motion
 						</span>
 					</div>
 					<div className="md:mb-6 mb-4">
@@ -53,7 +53,7 @@ const About = () => {
 						</button>
 						<span>
 							{" "}
-							Photography, Basketball, Investing, Travel, Hip-Hop/R&B, Sneakers
+							Photography, Basketball, Athletics, Travel, Hip-Hop/R&B, Sneakers
 						</span>
 					</div>
 					<p className="mb-2">
