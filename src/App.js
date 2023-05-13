@@ -5,7 +5,7 @@ import Experience from "./Pages/Experience";
 import Projects from "./Pages/Projects";
 import Photography from "./Pages/Photography";
 import { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import ScrollToTop from "./ScrollToTop";
 
@@ -44,23 +44,13 @@ const App = () => {
 				<ScrollToTop />
 				<div className="mt-6 m-auto p-4 max-w-screen-lg">
 					<Navbar theme={theme} setTheme={setTheme} />
-					<Switch>
-						<Route exact path="/">
-							<Home theme={theme} />
-						</Route>
-						<Route exact path="/about">
-							<About />
-						</Route>
-						<Route exact path="/experience">
-							<Experience theme={theme} />
-						</Route>
-						<Route exact path="/projects">
-							<Projects theme={theme} />
-						</Route>
-						<Route exact path="/photography">
-							<Photography />
-						</Route>
-					</Switch>
+					<Routes>
+						<Route path="/" element={<Home theme={theme} />} />
+						<Route path="/about" element={<About />} />
+						<Route path="/experience" element={<Experience theme={theme} />} />
+						<Route path="/projects" element={<Projects theme={theme} />} />
+						<Route path="/photography" element={<Photography />} />
+					</Routes>
 				</div>
 			</Router>
 		</ThemeProvider>

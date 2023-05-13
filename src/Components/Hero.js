@@ -25,23 +25,7 @@ const Hero = () => {
 				things tech
 			</h2>
 			<h2 className="font-inconsolata md:text-2xl text-sm mb-8">
-				Seeking Winter 2023 Internships | Previously{" "}
-				<a
-					href="https://www.york.ca/"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="font-bold"
-				>
-					@ York Region,
-				</a>{" "}
-				<a
-					href="https://checkcompass.ca/"
-					target="_blank"
-					rel="noopener noreferrer"
-					className="font-bold"
-				>
-					Compass
-				</a>{" "}
+				Seeking Fall 2023 Internships
 			</h2>
 			<motion.div
 				className="mt-6 flex"
