@@ -19,9 +19,9 @@ const ProjectCardGitHub = ({ image, text, theme, tech, body, link }) => {
 			>
 				<div
 					className="cursor-pointer rounded-md md:flex hidden justify-center items-center duration-300 absolute w-full h-full 
-							text-zero bg-opacity-0 bg-black text-opacity-0 hover:bg-opacity-50 hover:text-2xl"
+							text-transparent bg-opacity-0 bg-black hover:text-white hover:bg-opacity-50 hover:text-2xl"
 				>
-					<p className="font-mono text-white">{text}</p>
+					<p className="font-mono">{text}</p>
 				</div>
 				<ModalGitHub
 					image={image}
