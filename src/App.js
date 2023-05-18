@@ -5,7 +5,7 @@ import Experience from "./Pages/Experience";
 import Projects from "./Pages/Projects";
 import Photography from "./Pages/Photography";
 import { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import ScrollToTop from "./ScrollToTop";
 
