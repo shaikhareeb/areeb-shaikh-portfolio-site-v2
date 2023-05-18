@@ -6,7 +6,7 @@ const HomeCard = ({ image, route }) => {
 	let routeLink = route;
 	return (
 		<motion.div
-			whileHover={{ scale: 1.02 }}
+			whileHover={{ scale: 1.01 }}
 			style={{
 				backgroundImage: `url(${image})`,
 			}}

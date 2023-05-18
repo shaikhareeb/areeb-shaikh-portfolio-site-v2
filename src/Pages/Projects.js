@@ -4,6 +4,7 @@ import sorting from "../Images/sorting.png";
 import portfolio from "../Images/portfolio.png";
 import cards from "../Images/cards.png";
 import compiler from "../Images/compiler.png";
+import android from "../Images/android.png";
 import { motion } from "framer-motion";
 import Footer from "../Components/Footer";
 
@@ -25,13 +26,14 @@ const Projects = ({ theme }) => {
 					The source code is not available online due to copyright."
 					theme={theme}
 				/>
-				<ProjectCardGH
-					image={sorting}
-					text="Sorting Visualizer"
-					tech="React, JavaScript, HTML/CSS"
-					body="Web app that visualizes Heap Sort, Merge Sort, Quick Sort, Selection Sort, Insertion Sort, 
-					and Bubble Sort with the ability to randomize and generate new values for the array."
-					link="https://github.com/shaikhareeb/sorting-visualizer"
+				<ProjectCardNoGH
+					image={android}
+					text="Android Apps"
+					tech="Kotlin, JavaFX"
+					body="Created as part of CS349: User Interfaces.
+					Developed Connect Four, a note-taking app, and a graph visualizer with animations and intuitive user interfaces. 
+					Applied Model-View-Controller, Model-View-ViewModel, and Single-Activity Architecture for maintainability, scalability, and streamlined development.
+					The source code is not available online due to copyright."
 					theme={theme}
 				/>
 				<ProjectCardNoGH
@@ -46,12 +48,21 @@ const Projects = ({ theme }) => {
 					theme={theme}
 				/>
 				<ProjectCardGH
+					image={sorting}
+					text="Sorting Algorithm Visualizer"
+					tech="React, JavaScript, HTML, CSS"
+					body="Web app that visualizes Heap Sort, Merge Sort, Quick Sort, Selection Sort, Insertion Sort, 
+					and Bubble Sort with the ability to randomize and generate new values for the array."
+					link="https://github.com/shaikhareeb/sorting-visualizer"
+					theme={theme}
+				/>
+				<ProjectCardGH
 					image={portfolio}
 					text="Personal Website"
 					tech="React, JavaScript, TailwindCSS"
 					body="This website right here! Developed a fully responsive portfolio website from scratch
 					 complete with animations and themes to serve as a more comprehensive resume."
-					link="https://github.com/shaikhareeb/areebshaikh.me"
+					link="https://github.com/shaikhareeb/shaikhareeb.github.io"
 					theme={theme}
 				/>
 			</div>

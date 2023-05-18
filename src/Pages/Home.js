@@ -3,7 +3,7 @@ import Hero from "../Components/Hero";
 import HomeCard from "../Components/HomeCard";
 import Footer from "../Components/Footer";
 import { motion } from "framer-motion";
-import experience from "../Images/york_home.png";
+import experience from "../Images/home.png";
 import projects from "../Images/home2.png";
 import photography from "../Images/home3.png";
 import about from "../Images/home4.png";

@@ -20,10 +20,10 @@ const Card = ({ image, text, text2, theme, date, body }) => {
 				<div
 					className="cursor-pointer rounded-md hidden flex-col justify-center items-center duration-300 
 							absolute w-full h-full bg-opacity-0 bg-black text-transparent hover:text-white hover:bg-opacity-50 
-							hover:text-2xl md:flex"
+							md:flex"
 				>
-					<p className="font-mono">{text}</p>
-					<p className="font-inconsolata">{text2}</p>
+					<p className="text-2xl font-mono">{text}</p>
+					<p className="text-xl font-['karla']">{text2}</p>
 				</div>
 				<Modal
 					image={image}

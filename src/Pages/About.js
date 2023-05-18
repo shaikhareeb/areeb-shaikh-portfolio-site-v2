@@ -30,21 +30,23 @@ const About = () => {
 						<button className="cursor-text bg-indigo-200 px-2 mr-2 rounded-sm text-black">
 							Education
 						</button>
-						<span> 3A Computer Science, University of Waterloo</span>
+						<span> 3B Computer Science, University of Waterloo</span>
 					</div>
 					<div className="mb-4">
 						<button className="cursor-text bg-blue-200 px-2 mr-2 rounded-sm text-black">
 							Languages
 						</button>
-						<span>C/C++, JavaScript, Python, SQL, HTML/CSS, Racket</span>
+						<span>
+							Python, C/C++, JavaScript, TypeScript, Kotlin, SQL, HTML, CSS
+						</span>
 					</div>
 					<div className="mb-4">
 						<button className="cursor-text bg-yellow-200 px-2 mr-2 rounded-sm text-black">
 							Technologies
 						</button>
 						<span>
-							React, Django, PostgreSQL, TailwindCSS, Git, Oracle Database,
-							Oracle APEX, Bootstrap, Framer Motion
+							React, Django, PostgreSQL, TailwindCSS, JavaFX, Jest, Oracle
+							Database, Git
 						</span>
 					</div>
 					<div className="md:mb-6 mb-4">
@@ -53,8 +55,8 @@ const About = () => {
 						</button>
 						<span>
 							{" "}
-							Photography, Basketball, Athletics, Travel, Hip-Hop/R&B, Sneakers,
-							Sitcoms
+							Photography, Basketball, Athletics, Travel, Hip-Hop/R&B, Sitcoms,
+							Video Games
 						</span>
 					</div>
 					<p className="mb-2">
@@ -104,7 +106,7 @@ const About = () => {
 						size={38}
 						onClick={() =>
 							window.open(
-								"https://drive.google.com/file/d/12jbhXRFCqzJENK9hWbNWkvvsXIKmjvRf/view?usp=sharing",
+								"https://docs.google.com/document/d/1ZyFHb4hq20I3h0ykzwC7D0YBRuNBNiyXiJJvFtDp_bQ/edit?usp=sharing",
 								"_blank"
 							)
 						}
@@ -113,7 +115,7 @@ const About = () => {
 			</div>
 			<footer className="h-16">
 				<h1 className="pt-6 font-mono md:text-left text-center md:text-sm text-xs">
-					Designed & Developed by Areeb Shaikh © 2022
+					Designed & Developed by Areeb Shaikh © 2023
 				</h1>
 			</footer>
 		</motion.div>

@@ -45,10 +45,10 @@ const ModalGitHub = ({
 						</div>
 						<div className="mt-4 ml-4 md:text-2xl text-xl">
 							<p className="font-mono">{header}</p>
-							<p className="md:text-lg text-base italic font-inconsolata">
+							<p className="md:text-lg text-base italic font-['karla']">
 								{tech}
 							</p>
-							<p className="md:text-lg text-base mt-4 mb-4 font-inconsolata">
+							<p className="md:text-lg text-base mt-2 mb-4 font-['karla']">
 								{body}
 							</p>
 							<AiFillGithub

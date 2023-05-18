@@ -40,10 +40,8 @@ const ExperienceModal = ({
 						</div>
 						<div className="mt-4 ml-4 md:text-2xl text-xl">
 							<p className="font-mono">{header}</p>
-							<p className="md:text-xl text-lg ml-1 mb-2 font-inconsolata">
-								{date}
-							</p>
-							<p className="md:text-lg text-base mt-4 mb-4 font-inconsolata">
+							<p className="md:text-xl text-lg mb-2 font-['karla']">{date}</p>
+							<p className="md:text-lg text-base mt-2 mb-4 font-['karla']">
 								{body}
 							</p>
 						</div>

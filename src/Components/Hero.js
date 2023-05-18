@@ -20,11 +20,11 @@ const Hero = () => {
 					}}
 				/>
 			</h1>
-			<h2 className="font-inconsolata md:text-4xl text-xl md:mt-8 mt-4 mb-4">
+			<h2 className="font-['inconsolata'] md:text-4xl text-xl md:mt-8 mt-4 mb-4">
 				a third-year Computer Science student at uWaterloo passionate about all
 				things tech
 			</h2>
-			<h2 className="font-inconsolata md:text-2xl text-sm mb-8">
+			<h2 className="font-['karla'] md:text-2xl text-sm mb-8">
 				Seeking Fall 2023 Internships
 			</h2>
 			<motion.div
@@ -34,18 +34,18 @@ const Hero = () => {
 				transition={{ type: "tween", delay: 0.6, duration: 0.8 }}
 			>
 				<motion.div whileHover={{ scale: 1.1 }}>
-					<AiFillGithub
-						className="md:mr-8 mr-5 cursor-pointer md:text-5xl text-3xl"
-						onClick={() =>
-							window.open("https://github.com/shaikhareeb", "_blank")
-						}
-					/>
-				</motion.div>
-				<motion.div whileHover={{ scale: 1.1 }}>
 					<AiFillLinkedin
 						className="md:mr-8 mr-5 cursor-pointer md:text-5xl text-3xl"
 						onClick={() =>
 							window.open("https://www.linkedin.com/in/areeb-shaikh/", "_blank")
+						}
+					/>
+				</motion.div>
+				<motion.div whileHover={{ scale: 1.1 }}>
+					<AiFillGithub
+						className="md:mr-8 mr-5 cursor-pointer md:text-5xl text-3xl"
+						onClick={() =>
+							window.open("https://github.com/shaikhareeb", "_blank")
 						}
 					/>
 				</motion.div>
@@ -60,7 +60,7 @@ const Hero = () => {
 						className="cursor-pointer md:text-5xl text-3xl"
 						onClick={() =>
 							window.open(
-								"https://drive.google.com/file/d/12jbhXRFCqzJENK9hWbNWkvvsXIKmjvRf/view?usp=sharing",
+								"https://docs.google.com/document/d/1ZyFHb4hq20I3h0ykzwC7D0YBRuNBNiyXiJJvFtDp_bQ/edit?usp=sharing",
 								"_blank"
 							)
 						}
