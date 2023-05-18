@@ -48,7 +48,7 @@ const ModalGitHub = ({
 							<p className="md:text-lg text-base italic font-['karla']">
 								{tech}
 							</p>
-							<p className="md:text-lg text-base mt-2 mb-4 font-['karla']">
+							<p className="md:text-lg text-base mt-2 mb-4 pr-2 font-['karla']">
 								{body}
 							</p>
 							<AiFillGithub

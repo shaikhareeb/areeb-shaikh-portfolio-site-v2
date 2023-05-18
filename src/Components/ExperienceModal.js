@@ -38,7 +38,7 @@ const ExperienceModal = ({
 						>
 							<MdClose color="black" size={25} />
 						</div>
-						<div className="mt-4 ml-4 md:text-2xl text-xl">
+						<div className="mt-4 ml-4 pr-2 md:text-2xl text-xl">
 							<p className="font-mono">{header}</p>
 							<p className="md:text-xl text-lg mb-2 font-['karla']">{date}</p>
 							<p className="md:text-lg text-base mt-2 mb-4 font-['karla']">

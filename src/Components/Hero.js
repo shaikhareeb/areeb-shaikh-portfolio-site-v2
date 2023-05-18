@@ -16,7 +16,7 @@ const Hero = () => {
 						typewriter.typeString("Hey there, I'm Areeb").start();
 					}}
 					options={{
-						delay: 90,
+						delay: 50,
 					}}
 				/>
 			</h1>

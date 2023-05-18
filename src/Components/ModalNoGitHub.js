@@ -43,7 +43,7 @@ const ModalNoGitHub = ({
 							<p className="md:text-lg text-base italic font-['karla']">
 								{tech}
 							</p>
-							<p className="md:text-lg text-base mt-2 mb-4 font-['karla']">
+							<p className="md:text-lg text-base mt-2 mb-4 font-['karla'] pr-2">
 								{body}
 							</p>
 						</div>
