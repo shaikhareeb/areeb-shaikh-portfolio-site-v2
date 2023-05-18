@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf890fdb.css",
-    "main.js": "/static/js/main.ef5e7356.js",
+    "main.js": "/static/js/main.c5b88ca1.js",
     "static/media/shaikh_img20.JPG": "/static/media/shaikh_img20.12ca3e56973ef5311acf.JPG",
     "static/media/shaikh_img22.jpg": "/static/media/shaikh_img22.f88151f8bdae1c391048.jpg",
     "static/media/shaikh_img34.jpg": "/static/media/shaikh_img34.7b0dd2daaa807f49f423.jpg",
@@ -51,10 +51,10 @@
     "static/media/android.png": "/static/media/android.fb41f63c5b7892ad68fa.png",
     "index.html": "/index.html",
     "main.cf890fdb.css.map": "/static/css/main.cf890fdb.css.map",
-    "main.ef5e7356.js.map": "/static/js/main.ef5e7356.js.map"
+    "main.c5b88ca1.js.map": "/static/js/main.c5b88ca1.js.map"
   },
   "entrypoints": [
     "static/css/main.cf890fdb.css",
-    "static/js/main.ef5e7356.js"
+    "static/js/main.c5b88ca1.js"
   ]
 }
