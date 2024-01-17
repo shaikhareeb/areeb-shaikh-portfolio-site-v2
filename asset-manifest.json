@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.cf890fdb.css",
-    "main.js": "/static/js/main.f48bcf23.js",
+    "main.js": "/static/js/main.1f95bcd5.js",
     "static/media/shaikh_img20.JPG": "/static/media/shaikh_img20.12ca3e56973ef5311acf.JPG",
-    "static/media/me.jpg": "/static/media/me.eb43b9ed8c8f93180133.jpg",
     "static/media/shaikh_img22.jpg": "/static/media/shaikh_img22.f88151f8bdae1c391048.jpg",
+    "static/media/me.jpg": "/static/media/me.c7a553945ce32d749942.jpg",
     "static/media/shaikh_img34.jpg": "/static/media/shaikh_img34.7b0dd2daaa807f49f423.jpg",
     "static/media/shaikh_img13.jpg": "/static/media/shaikh_img13.fab72526b3792b188465.jpg",
     "static/media/shaikh_img19.jpg": "/static/media/shaikh_img19.6bf807f915a1bde73150.jpg",
@@ -36,14 +36,15 @@
     "static/media/shaikh_img4.jpg": "/static/media/shaikh_img4.9ea8592887133579091f.jpg",
     "static/media/shaikh_img16.jpg": "/static/media/shaikh_img16.6046b5010d12165b52f9.jpg",
     "static/media/shaikh_img1.jpg": "/static/media/shaikh_img1.dab3a3d846daf473d29e.jpg",
-    "static/media/ford.png": "/static/media/ford.ce6d1fcc1818af82798a.png",
     "static/media/shaikh_img6.jpg": "/static/media/shaikh_img6.f1f7ff0a44fd6f7e8862.jpg",
-    "static/media/home.png": "/static/media/home.478d831c5131896a2a4c.png",
     "static/media/shaikh_img23.jpg": "/static/media/shaikh_img23.0db826059e96b29d8214.jpg",
     "static/media/portfolio.png": "/static/media/portfolio.5145fa1ce706b0381773.png",
-    "static/media/york.png": "/static/media/york.048350744897195da89b.png",
-    "static/media/compass.png": "/static/media/compass.152b2dfa0608dfc1350f.png",
+    "static/media/ford.png": "/static/media/ford.43900beefe22506c018a.png",
+    "static/media/home.png": "/static/media/home.1b86882fc2a3ee7f2dee.png",
+    "static/media/york.png": "/static/media/york.4a6b56f83e0745ff5c9a.png",
+    "static/media/compass.png": "/static/media/compass.12abad07e92566af038c.png",
     "static/media/sorting.png": "/static/media/sorting.8f17ab4b9b319f9a27ac.png",
+    "static/media/adhawk.png": "/static/media/adhawk.5aba444143efa39332cb.png",
     "static/media/home4.png": "/static/media/home4.dcd49803e50ed26e25f8.png",
     "static/media/home2.png": "/static/media/home2.5776a8c6011611a817ea.png",
     "static/media/home3.png": "/static/media/home3.1bd22fda0acada8c2edd.png",
@@ -51,10 +52,10 @@
     "static/media/android.png": "/static/media/android.fb41f63c5b7892ad68fa.png",
     "index.html": "/index.html",
     "main.cf890fdb.css.map": "/static/css/main.cf890fdb.css.map",
-    "main.f48bcf23.js.map": "/static/js/main.f48bcf23.js.map"
+    "main.1f95bcd5.js.map": "/static/js/main.1f95bcd5.js.map"
   },
   "entrypoints": [
     "static/css/main.cf890fdb.css",
-    "static/js/main.f48bcf23.js"
+    "static/js/main.1f95bcd5.js"
   ]
 }
