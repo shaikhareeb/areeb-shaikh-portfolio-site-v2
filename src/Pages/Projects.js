@@ -19,17 +19,17 @@ const Projects = ({ theme }) => {
 			<div className="grid md:grid-cols-2 gap-x-4 gap-y-4">
 				<ProjectCardNoGH
 					image={compiler}
-					text="Compiler"
+					text="Compiler & Assembler"
 					tech="C++"
-					body="Created as part of CS241: Foundations of Sequential Programs. Built a compiler for a C++ derived language into assembly and further into machine code. 
-					Implemented a scanner, parser, semantic analyzer, code generator, and assembler. Additionally, utilized dynamic memory management, symbol tables, and linkers.
+					body="Created as part of CS241: Foundations of Sequential Programs. Built a fully-functional compiler for a C++ derived language to MIPS assembly and further into machine code. 
+					Additionally, developed an assembler to translate generated assembly code from valid programs into executable binaries.
 					The source code is not available online due to copyright."
 					theme={theme}
 				/>
 				<ProjectCardNoGH
 					image={android}
 					text="Android Apps"
-					tech="Kotlin, JavaFX"
+					tech="Kotlin"
 					body="Created as part of CS349: User Interfaces.
 					Developed Connect Four, a note-taking app, and a graph visualizer with animations and intuitive user interfaces. 
 					Applied Model-View-Controller, Model-View-ViewModel, and Single-Activity Architecture for maintainability, scalability, and streamlined development.

@@ -21,11 +21,11 @@ const Hero = () => {
 				/>
 			</h1>
 			<h2 className="font-['inconsolata'] md:text-4xl text-xl md:mt-8 mt-4 mb-4">
-				a third-year Computer Science student at uWaterloo passionate about all
+				a fourth-year Computer Science student at UWaterloo passionate about all
 				things tech
 			</h2>
 			<h2 className="font-['karla'] md:text-2xl text-sm mb-8">
-				Seeking Fall 2023 Internships
+				Seeking Summer & Fall 2024 Internships
 			</h2>
 			<motion.div
 				className="mt-6 flex"
