@@ -21,37 +21,46 @@ const About = () => {
 						👋 Hey! I'm Areeb, pleasure to meet you. Here's a little about me:
 					</p>
 					<div className="mb-4">
-						<button className="cursor-text bg-gray-200 px-2 mr-2 rounded-sm text-black">
+						<button className="cursor-text bg-gray-100 px-2 mr-2 rounded-sm text-black">
 							Location
 						</button>
 						<span> Greater Toronto Area, Ontario</span>
 					</div>
 					<div className="mb-4">
-						<button className="cursor-text bg-indigo-200 px-2 mr-2 rounded-sm text-black">
+						<button className="cursor-text bg-indigo-100 px-2 mr-2 rounded-sm text-black">
 							Education
 						</button>
 						<span> 4A Computer Science, University of Waterloo</span>
 					</div>
 					<div className="mb-4">
-						<button className="cursor-text bg-blue-200 px-2 mr-2 rounded-sm text-black">
+						<button className="cursor-text bg-blue-100 px-2 mr-2 rounded-sm text-black">
 							Languages
 						</button>
 						<span>
-							Python, C++, JavaScript, TypeScript, Kotlin, C, SQL, HTML, CSS
+							Python, TypeScript, JavaScript, Kotlin, C++, C, GraphQL, SQL,
+							HTML, CSS
 						</span>
 					</div>
 					<div className="mb-4">
-						<button className="cursor-text bg-yellow-200 px-2 mr-2 rounded-sm text-black">
-							Technologies
+						<button className="cursor-text bg-green-100 px-2 mr-2 rounded-sm text-black">
+							Frameworks/Libraries
 						</button>
 						<span>
-							React, Angular, GraphQL, Node.js, Django, MongoDB, PostgreSQL,
-							Apollo, Tailwind CSS, JavaFX, Oracle Database, Grafana, Loki,
-							Docker, Git
+							React, Angular, Django, Node.js, Apollo GraphQL, Tailwind CSS,
+							Compose, Ktor, JavaFX
+						</span>
+					</div>
+					<div className="mb-4">
+						<button className="cursor-text bg-orange-100 px-2 mr-2 rounded-sm text-black">
+							Tools/Databases
+						</button>
+						<span>
+							MongoDB, PostgreSQL, Docker, GCP, Firebase, Oracle Database, Jest,
+							Grafana, Loki, Git, Postman, Jira
 						</span>
 					</div>
 					<div className="md:mb-6 mb-4">
-						<button className="cursor-text bg-red-200 px-2 mr-2 rounded-sm text-black">
+						<button className="cursor-text bg-red-100 px-2 mr-2 rounded-sm text-black">
 							Interests
 						</button>
 						<span>

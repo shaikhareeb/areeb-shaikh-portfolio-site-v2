@@ -25,7 +25,7 @@ const Hero = () => {
 				things tech
 			</h2>
 			<h2 className="font-['karla'] md:text-2xl text-sm mb-8">
-				Seeking Summer & Fall 2024 Internships
+				Seeking Fall 2024 Internships
 			</h2>
 			<motion.div
 				className="mt-6 flex"

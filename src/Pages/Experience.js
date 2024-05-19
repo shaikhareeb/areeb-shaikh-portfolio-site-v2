@@ -17,35 +17,30 @@ const Experience = ({ theme }) => {
 			<div className="grid grid-cols-1 gap-y-6">
 				<ExperienceCard
 					image={adhawk}
-					text="AdHawk Microsystems | Full Stack Software Developer Intern"
+					text="AdHawk Microsystems — Software Developer Intern"
 					text2="September 2023 - December 2023"
 					date="September 2023 - December 2023"
 					body={
 						<>
 							<li>
-								Engineered an automated eye-tracking crash report system with
-								Jira integration, improving response time by 60%
+								Architected an automated crash report system with Jira
+								integration for 350+ eye-tracking glasses with Python, Apollo
+								GraphQL, MongoDB, Node.js, and Docker, improving customer
+								response time by 40% and crash report efficiency by 80%
 							</li>
 							<li>
-								Streamlined logging infrastructure, reducing the time required
-								for log ingestion by 85%
+								Integrated real-time gaze-tracking metrics into the analytics
+								platform, expanding data coverage by 50% and empowering users to
+								access a comprehensive and diverse range of ocular insights
+								using Python, Apollo GraphQL, and MongoDB
 							</li>
 							<li>
-								Implemented interactive eye-tracking data visualization tools,
-								allowing users to gain valuable insights at a glance
+								Implemented interactive eye-tracking data visualization tools in
+								Angular and TypeScript, reducing data analysis time by 60%
 							</li>
 							<li>
-								Integrated session-less data into the analytics platform,
-								enabling users to review diverse eye-tracking information
-							</li>
-							<li>
-								Performed extensive unit testing, regression testing, and
-								end-to-end testing to resolve 25+ critical bugs
-							</li>
-							<li>
-								Languages/technologies utilized include Python, GraphQL,
-								MongoDB, Node.js, Angular, TypeScript, Apollo, Docker, Grafana,
-								Loki
+								Streamlined logging infrastructure with Python and Grafana Loki,
+								decreasing the time required for log ingestion by 85%
 							</li>
 						</>
 					}
@@ -53,38 +48,31 @@ const Experience = ({ theme }) => {
 				/>
 				<ExperienceCard
 					image={ford}
-					text="Ford Motor Company | Software Engineering Intern"
+					text="Ford Motor Company — Software Engineering Intern"
 					text2="January 2023 - April 2023"
 					date="January 2023 - April 2023"
 					body={
 						<>
 							<li>
-								Developed 20+ web pages for international markets, generating
-								the company 1,000,000+ dollars in revenue
+								Developed 16 dynamic marketing web pages tailored to 5 diverse
+								international markets using React and TypeScript, driving
+								revenue growth exceeding $100,000 by expanding the clientele of
+								various products, services, and software solutions
 							</li>
 							<li>
-								Built reusable and modular front-end components, optimizing
-								developer productivity and code maintainability
+								Built 10 scalable and modular UI components in React and
+								TypeScript, optimizing code maintainability and developer
+								productivity for a 12-person engineering team by saving 30+
+								hours of development for new web pages and features
 							</li>
 							<li>
-								Applied Test-Driven Development (TDD) to design comprehensive
-								unit tests, increasing test coverage by 8%
+								Refactored a 3000+ lines JavaScript codebase to TypeScript,
+								improving code readability and reducing bug incidents by 40%
 							</li>
 							<li>
-								Refactored legacy codebase to optimize performance, enhance code
-								readability, and minimize technical debt
-							</li>
-							<li>
-								Conducted 40+ PR reviews for key features, ensuring proper
-								functionality and adherence to coding standards
-							</li>
-							<li>
-								Pair programmed with senior engineers, fostering knowledge
-								transfer and accelerated development
-							</li>
-							<li>
-								Languages/technologies utilized include React, TypeScript,
-								JavaScript, HTML, CSS
+								Applied test-driven development (TDD) to design 40+
+								comprehensive unit tests with Jest, increasing test coverage by
+								12%
 							</li>
 						</>
 					}
@@ -92,30 +80,26 @@ const Experience = ({ theme }) => {
 				/>
 				<ExperienceCard
 					image={york}
-					text="York Region | Software Developer Intern"
+					text="York Region — Software Developer Intern"
 					text2="May 2022 - August 2022"
 					date="May 2022 - August 2022"
 					body={
 						<>
 							<li>
-								Architected a web application that tracks the motor vehicle
-								accidents of more than 1.17 million people
+								Engineered a robust web application that tracks the accidents of
+								8,000+ motor vehicles using JavaScript and Oracle APEX
 							</li>
 							<li>
-								Created internal tools to automate database creation,
-								duplication, and backup, increasing efficiency by 75%
+								Created internal tools automating Oracle Database creation,
+								duplication, and backup in SQL, increasing efficiency by 75%
 							</li>
 							<li>
-								Performed extensive data modelling, use case creation, and
-								requirement gathering to fulfill client specifications
+								Optimized database queries and indexing strategies, leading to a
+								30% reduction in organizational application response time
 							</li>
 							<li>
-								Executed comprehensive software testing, documentation, and
-								deployment activities for various applications
-							</li>
-							<li>
-								Languages/technologies utilized include JavaScript, SQL, Oracle
-								Database, HTML, CSS
+								Executed comprehensive software testing, data modelling, and
+								deployment activities with 3 cross-functional teams
 							</li>
 						</>
 					}
@@ -123,30 +107,24 @@ const Experience = ({ theme }) => {
 				/>
 				<ExperienceCard
 					image={compass}
-					text="Compass | Full Stack Developer Intern"
+					text="Compass — Software Engineer Intern"
 					text2="May 2021 - August 2021"
 					date="May 2021 - August 2021"
 					body={
 						<>
 							<li>
-								Spearheaded full stack development of a B2B SaaS mental health
-								platform used by 6000+ university students
+								Led the full stack development of a B2B SaaS mental health
+								platform serving 6,000+ university students by architecting REST
+								APIs in Django and enhancing UI/UX features in React and
+								JavaScript, resulting in app adoption by 3 new universities
 							</li>
 							<li>
-								Constructed REST APIs and the front-end implementation of
-								various new features and UI/UX upgrades
+								Automated PostgreSQL database population with CSV files using
+								Python, boosting developer productivity by 75%
 							</li>
 							<li>
-								Implemented the ability to automatically populate the database
-								via CSV, improving developer productivity by 70%
-							</li>
-							<li>
-								Established advanced search filters to refine query results,
-								enhancing user experience and search accuracy
-							</li>
-							<li>
-								Languages/technologies utilized include React, Django, Python,
-								JavaScript, PostgreSQL, HTML, CSS
+								Established advanced search filters using Django and React to
+								refine search query results, reducing wait times by 80%
 							</li>
 						</>
 					}
