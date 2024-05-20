@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf890fdb.css",
-    "main.js": "/static/js/main.1f95bcd5.js",
+    "main.js": "/static/js/main.195d13fd.js",
     "static/media/shaikh_img20.JPG": "/static/media/shaikh_img20.12ca3e56973ef5311acf.JPG",
     "static/media/shaikh_img22.jpg": "/static/media/shaikh_img22.f88151f8bdae1c391048.jpg",
     "static/media/me.jpg": "/static/media/me.c7a553945ce32d749942.jpg",
@@ -27,7 +27,6 @@
     "static/media/shaikh_img33.jpg": "/static/media/shaikh_img33.6ee25f02b8e0c2d3b59d.jpg",
     "static/media/shaikh_img9.jpg": "/static/media/shaikh_img9.b3e5860481e60bf302b2.jpg",
     "static/media/shaikh_img2.jpg": "/static/media/shaikh_img2.6f6cb10b184d8eca29fe.jpg",
-    "static/media/cards.png": "/static/media/cards.8ca630d8121c4a580e0c.png",
     "static/media/shaikh_img35.jpg": "/static/media/shaikh_img35.f654709ba510a1597e8b.jpg",
     "static/media/shaikh_img24.jpg": "/static/media/shaikh_img24.56b8fddb00bc36cd4a1f.jpg",
     "static/media/shaikh_img11.jpg": "/static/media/shaikh_img11.3e9ec71dae17835d5f36.jpg",
@@ -40,22 +39,25 @@
     "static/media/shaikh_img23.jpg": "/static/media/shaikh_img23.0db826059e96b29d8214.jpg",
     "static/media/portfolio.png": "/static/media/portfolio.5145fa1ce706b0381773.png",
     "static/media/ford.png": "/static/media/ford.43900beefe22506c018a.png",
-    "static/media/home.png": "/static/media/home.1b86882fc2a3ee7f2dee.png",
+    "static/media/home.png": "/static/media/home.2c2f06de434e78ad0ff0.png",
     "static/media/york.png": "/static/media/york.4a6b56f83e0745ff5c9a.png",
     "static/media/compass.png": "/static/media/compass.12abad07e92566af038c.png",
+    "static/media/sweetdreams.png": "/static/media/sweetdreams.9ad62e3a94669a83ad77.png",
     "static/media/sorting.png": "/static/media/sorting.8f17ab4b9b319f9a27ac.png",
     "static/media/adhawk.png": "/static/media/adhawk.5aba444143efa39332cb.png",
     "static/media/home4.png": "/static/media/home4.dcd49803e50ed26e25f8.png",
+    "static/media/cards.png": "/static/media/cards.d51bb925977922ff99ea.png",
     "static/media/home2.png": "/static/media/home2.5776a8c6011611a817ea.png",
+    "static/media/privacydroid.png": "/static/media/privacydroid.e60f501f07101945fab0.png",
     "static/media/home3.png": "/static/media/home3.1bd22fda0acada8c2edd.png",
     "static/media/compiler.png": "/static/media/compiler.cd7560673b9813f18c73.png",
     "static/media/android.png": "/static/media/android.fb41f63c5b7892ad68fa.png",
     "index.html": "/index.html",
     "main.cf890fdb.css.map": "/static/css/main.cf890fdb.css.map",
-    "main.1f95bcd5.js.map": "/static/js/main.1f95bcd5.js.map"
+    "main.195d13fd.js.map": "/static/js/main.195d13fd.js.map"
   },
   "entrypoints": [
     "static/css/main.cf890fdb.css",
-    "static/js/main.1f95bcd5.js"
+    "static/js/main.195d13fd.js"
   ]
 }
